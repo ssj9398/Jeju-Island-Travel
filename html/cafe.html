@@ -55,6 +55,22 @@
         </br>
 
     </div>
+    <script>
+        window.addEventListener("load", function () {
+            var map = document.querySelector("#map");
+
+            map.style.width = document.body.scrollWidth / 2 + "px";
+            map.style.height = document.body.scrollHeight / 2 + "px";
+        });
+
+        window.addEventListener("load", function () {
+            var map2 = document.querySelector("#map2");
+
+            map2.style.width = document.body.scrollWidth + "px";
+            map2.style.height = document.body.scrollHeight + "px";
+        });
+
+    </script>
 </body>
 
 </html>
