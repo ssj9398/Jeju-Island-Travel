@@ -156,8 +156,8 @@ a {
 /* dark mode button active*/
 .themed.active {
 
-    width     : max-content;
-    height    : max-content;
+    width     : 115px;
+    height    : 28px;
     background: #adbac7;
 
 }
@@ -166,18 +166,24 @@ a {
 
 /* dark mode button */
 .themed {
-    border-radius      : 100px;
-    width              : 20px;
-    background-color   : black;
-    border             : none;
-    color              : #adbac7;
-    padding            : 20px;
+    border-radius: 100px;
+
+    background-color: black;
+    border          : none;
+    color           : #adbac7;
+
     margin-left        : 20px;
     margin-top         : 20px;
     transition-duration: 0.6s;
     overflow           : hidden;
     cursor             : grab;
-    height             : 20px;
+    position           : fixed;
+    right              : 0;
+    bottom             : 0;
+    width              : 115px;
+    height             : 28px;
+
+
 }
 
 .box {
@@ -222,6 +228,8 @@ a {
     .themed.active {
         background: white;
         color     : rgb(119, 115, 115);
+        width     : 115px;
+        height    : 28px;
     }
 }
 
