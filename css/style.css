@@ -179,7 +179,7 @@ a {
     cursor             : grab;
     position           : fixed;
     right              : 0;
-    bottom             : 0;
+    top                : 20;
     width              : 115px;
     height             : 28px;
 
